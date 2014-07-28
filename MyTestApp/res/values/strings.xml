@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTestApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="NAME">name</string>
+    <string name="PASSWORD">password</string>
+    <string name="NUMBER">number</string>
+    <string name="SUBMIT">submit</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="action_search">search!</string>
+    <string name="giveurl">Enter a URL</string>
+    <string name="title_activity_save_stuff">SaveStuff</string>
+    <string name="title_activity_fourth">Fourth</string>
+    <string name="redditHint">reddit.com/r/</string>
+    <string name="title_activity_camera">myCamera</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_recorder_service">RecorderService</string>
+    <string name="title_activity_regularvideo">MainActivity</string>
+
+</resources>

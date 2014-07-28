@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.saf217.mytestapp.DisplayMessageActivity"
+    tools:ignore="MergeRootFrame" 
+    >
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="smerk"
+        android:paddingTop="0dp"
+         />
+
+    <TextView
+        android:id="@+id/celly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:text="Set the Time"
+        android:textSize="50dp" 
+        />
+
+    <Button
+        android:id="@+id/smokebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:onClick="goSmoke"
+        android:hapticFeedbackEnabled="true"
+        android:text="Special Time?" 
+        />
+
+    <StackView
+        android:id="@+id/stackView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </StackView>
+
+     <Button
+        android:id="@+id/thirdActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:onClick="thirdActivity"
+        android:hapticFeedbackEnabled="true"
+        android:text="Next" 
+        />
+     
+     <EditText
+        android:inputType="textUri"
+        android:id="@+id/enterurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:imeOptions="actionGo"
+        android:onClick="goInternet"
+        android:hint="@string/giveurl"
+        />
+   
+</LinearLayout>

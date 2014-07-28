@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.saf217.mytestapp.RegularvideoActivity" >
+
+    <SurfaceView
+        android:id="@+id/surfaceViewRegular"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.54" />
+
+    <Button
+        android:id="@+id/buttonRegularStop"
+        android:layout_width="602dp"
+        android:layout_height="560dp"
+        android:background="@drawable/black"
+        android:onClick="stop" />
+
+</LinearLayout>

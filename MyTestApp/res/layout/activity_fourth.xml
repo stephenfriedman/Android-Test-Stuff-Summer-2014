@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.saf217.mytestapp.Fourth"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:onClick="play"
+         />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/pointer"
+         />
+  <TextView
+         android:id="@+id/brightnessTexr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Brightness"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+     <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:alpha="1"
+         />
+
+     <EditText
+         android:id="@+id/editTextSearchBar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/redditHint"
+         android:inputType="textUri"
+         android:imeOptions="actionGo"
+         android:onClick="searchBar"
+		/>
+
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Insert a subreddit"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+     <Button
+        android:id="@+id/toCameraActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="picture"
+        android:onClick="toCameraActivity"
+         />
+         <Button
+        android:id="@+id/toVideoActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="video"
+        android:onClick="toVideoActivity"
+         />
+	 <Button
+        android:id="@+id/regularVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="regular video"
+        android:onClick="regularvideo"
+                 />
+</LinearLayout>
+

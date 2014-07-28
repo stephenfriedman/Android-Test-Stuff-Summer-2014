@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.saf217.mytestapp.SaveStuff"
+    tools:ignore="MergeRootFrame" 
+    >
+    
+     <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="saveStuff"
+        android:text="Save stuff!" 
+        />
+     
+     <Button
+        android:id="@+id/getFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="getFile"
+        android:text="Get stuff!" 
+        />
+
+     <EditText
+         android:id="@+id/toSave"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="0.17"
+         android:hint="Put text in to save"
+         android:ems="10"
+          >
+
+         <requestFocus />
+     </EditText>
+     
+     <Button
+        android:id="@+id/snapPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="snapPic"
+        android:text="Snap pic!" 
+        />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="205dp"
+         android:layout_height="270dp"
+         android:src="@drawable/abc_ab_bottom_solid_dark_holo" 
+         />
+    <Button
+        android:id="@+id/nextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="toNextActivity"
+        android:text="Next Activity" 
+        />
+    </LinearLayout>
+
